@@ -67,23 +67,24 @@ document.write(5 + " " + "x" +  " " + "10" + " " + "=" +  " " + (5 * 10) + "<br>
 var english = prompt("Enter Subject name")
 var math = prompt("Enter Subject name")
 var urdu = prompt("Enter Subject name")
+
  var totalMarks = 100;
 
- var englishMarks= prompt("Enter obtained marks")
- var mathMarks= prompt("Enter obtained marks")
- var urduMarks= prompt("Enter obtained marks")
+ var subject1= prompt("Enter obtained marks")
+ var subject2= prompt("Enter obtained marks")
+ var subject3= prompt("Enter obtained marks")
 
- var totalObtaindMarks= englishMarks + mathMarks + urduMarks;
+ var totalObtaindMarks= subject1 + subject2 + subject3;
 
- var englishPercentage = englishMarks / 300 * 100;
- var mathPercentage = mathMarks / 300 * 100;
- var urduPercentage = urduMarks / 300 * 100;
+ var englishPercentage = subject1 / 300 * 100;
+ var mathPercentage = subject2 / 300 * 100;
+ var urduPercentage = subject3 / 300 * 100;
 
 
 document.write("Subject" + " " + "totalMarks" + " " + "Obtained Marks" + " " + "Percentage" + "<br>")
-document.write(english + " " + totalMarks + " " + englishMarks + " " + englishPercentage + "<br>")
-document.write(math + " " + totalMarks + " " + mathMarks + " " + mathPercentage + "<br>")
-document.write(urdu + " " + totalMarks + " " + urduMarks + " " + urduPercentage + "<br>")
+document.write(english + " " + totalMarks + " " + subject1 + " " + englishPercentage + "<br>")
+document.write(math + " " + totalMarks + " " + subject2 + " " + mathPercentage + "<br>")
+document.write(urdu + " " + totalMarks + " " + subject3 + " " + urduPercentage + "<br>")
 
 
     </script>
